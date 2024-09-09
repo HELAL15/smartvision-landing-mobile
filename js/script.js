@@ -14,26 +14,26 @@ $(document).ready(function(){
 
 
 
-    const navToggler = $("#nav-toggler");
-    const collapse = $(".navbar-collapse");
-    const close = $("#close");
+    // const navToggler = $("#nav-toggler");
+    // const collapse = $(".navbar-collapse");
+    // const close = $("#close");
     
-    navToggler.on("click", function(){
-      collapse.toggleClass("active");
-    });
-    close.on("click", function(){
-      collapse.toggleClass("active");
-    });
+    // navToggler.on("click", function(){
+    //   collapse.toggleClass("active");
+    // });
+    // close.on("click", function(){
+    //   collapse.toggleClass("active");
+    // });
 
 
     
     
-    // loader
-    $('#loading').fadeOut(500);
+    // // loader
+    // $('#loading').fadeOut(500);
 
     new WOW().init();
 
-    $('select').niceSelect();
+    // $('select').niceSelect();
 
 
 
